@@ -1,1 +1,1 @@
-E-store built with React, Bootstrap and Context API.
+Changed Context API with Redux and added Google O'Auth.

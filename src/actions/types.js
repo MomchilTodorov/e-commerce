@@ -1,0 +1,11 @@
+export const SIGN_IN = 'SIGN_IN';
+export const SIGN_OUT = 'SIGN_OUT';
+export const UPDATE_PRODUCTS = 'UPDATE_PRODUCTS';
+export const HANDLE_DETAIL = 'HANDLE_DETAIL';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const CLEAR_CART = 'CLEAR_CART';
+export const ADD_TOTALS = 'ADD_TOTALS';

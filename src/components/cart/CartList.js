@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import CartItem from './CartItem';
 
-function CartList({ value }) {
-  const { cart } = value;
+class CartList extends Component {
+  render() {
+    const { cart } = this.props.data;
 
-  return (
-    <div className="container-fluid">
-      {cart.map(item => {
-        return <CartItem key={item.id} item={item} value={value} />;
-      })}
-    </div>
-  );
+    return (
+      <div className="container-fluid">
+        {cart.map(item => {
+          return <CartItem key={item.id} item={item} />;
+        })}
+      </div>
+    );
+  }
 }
 
-export default CartList;
+function mapStateToProps(state) {
+  return { data: state.data };
+}
+
+export default connect(mapStateToProps)(CartList);

@@ -46,3 +46,22 @@ body {
     font-size: 1.2rem;
     color: var(--mainYellow);
 }
+
+button .original { display: none ; }
+button:hover .alternative { display: none; }
+button:hover .original { display: inline; }
+
+#signIn, #signOut {
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.fa-laptop-code {
+    color: #009ffd
+}
+
+#products {
+    color: #009ffd
+}
+

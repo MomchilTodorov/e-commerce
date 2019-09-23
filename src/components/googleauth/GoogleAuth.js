@@ -14,7 +14,7 @@ class GoogleAuth extends Component {
       window.gapi.client
         .init({
           clientId:
-            '254406641136-lc6b8b252avd7n3261f0b81m5qvkta2d.apps.googleusercontent.com',
+            '837989495813-cum3gld4bpjc420d6gcmlcjo4tdlbdc5.apps.googleusercontent.com',
           scope: 'email'
         })
         .then(() => {

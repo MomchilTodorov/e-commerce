@@ -73,7 +73,6 @@ class GoogleAuth extends Component {
             Sing In With Google
           </span>
           <span className="visible content">
-            <i className="google icon" />
             Apply Product Discount
           </span>
         </button>

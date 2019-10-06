@@ -4,5 +4,7 @@
 The E-commerce cart is a simple single page CRUD application that utilises the Paypal sandbox to mimic the live PayPal production environment.
 
 Credentials for the Payapal sandbox:
+<br/>
 username:
+<br/>
 password:

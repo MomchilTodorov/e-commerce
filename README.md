@@ -5,6 +5,6 @@ The E-commerce cart is a simple single page CRUD application that utilises the P
 
 Credentials for the PayPal sandbox:
 <br/>
-username:
+username: sb-qv0tc113158@personal.example.com
 <br/>
-password:
+password: w/.)qxEe

@@ -6,7 +6,7 @@ import { clearCart } from '../../actions';
 
 class CartTotals extends Component {
   render() {
-    const { cartSubTotal, cartTax, cartTotal, clearCart } = this.props.data;
+    const { cartSubTotal, cartTax, cartTotal } = this.props.data;
     return (
       <React.Fragment>
         <div className="container"></div>
@@ -35,11 +35,7 @@ class CartTotals extends Component {
               <span className="text-title">total :</span>
               <strong>${cartTotal}</strong>
             </h5>
-            <PayPalButton
-              total={cartTotal}
-              clearCart={clearCart}
-              history={this.props.history}
-            />
+            <PayPalButton total={cartTotal} clearCart={this.props.clearCart} />
           </div>
         </div>
       </React.Fragment>
